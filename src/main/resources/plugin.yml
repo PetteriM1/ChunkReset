@@ -1,0 +1,15 @@
+name: ChunkReset
+version: "${pom.version}"
+api: ["1.0.0"]
+author: PetteriM1
+main: me.petterim1.chunkreset.Main
+
+commands:
+  resetchunk:
+    description: Reset the chunk you are on
+    usage: "/resetchunk"
+    permission: chunk.reset
+permissions:
+  chunk.reset:
+    description: "Allows user to reset chunks"
+    default: op
